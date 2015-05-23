@@ -1,0 +1,24 @@
+{
+    "name": "hushulin/laratwig",
+    "description": "",
+    "authors": [
+        {
+            "name": "erichu",
+            "email": "hushulin12321@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "twig/twig": "~1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Hushulin\\Laratwig\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
